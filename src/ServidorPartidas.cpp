@@ -13,8 +13,11 @@
 //
 // #############################################################################
 #include <stdlib.h>
+#include <stdio.h>
 
 int main(int argc, char *argv[]) {
+
+	printf("%s vs %s\n", argv[1], argv[2]);
 
 	exit(0);
 }
