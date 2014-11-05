@@ -14,10 +14,11 @@
 // #############################################################################
 #include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
 
 int main(int argc, char *argv[]) {
 
-	printf("%s vs %s\n", argv[1], argv[2]);
+	printf("Server Partidas %d", getpid());
 
 	exit(0);
 }
